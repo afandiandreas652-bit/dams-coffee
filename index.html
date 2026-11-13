@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dams Coffee | Kopi Premium Indonesia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <span>↑</span>
+    </button>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-mark">D<sup>C</sup></div>
+                <span>Dams Coffee</span>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#story" class="nav-link">Our Story</a></li>
+                <li><a href="#location" class="nav-link">Location</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#cart" class="nav-link cart-trigger" id="navCartBtn">
+                    🛒 <span id="cartCount" class="cart-badge">0</span>
+                </a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="nav-cart" id="mobileCartBtn" aria-label="Keranjang Belanja">
+                    🛒 <span id="mobileCartCount" class="cart-badge">0</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Kopi Premium Dari Indonesia</div>
+            <h1 class="hero-title">Rasakan Kehangatan <br>Setiap Cangkir Kopi</h1>
+            <p class="hero-description">
+                Dams Coffee hadir dengan kopi berkualitas tinggi dari petani lokal, 
+                diproses dengan cermat untuk menghasilkan rasa yang autentik dan memukau.
+            </p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+                <a href="#order" class="btn btn-outline">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Pilihan Terbaik</span>
+                <h2 class="section-title">Menu Kopi Kami</h2>
+                <p class="section-description">
+                    Nikmati berbagai pilihan kopi pilihan yang disiapkan dengan penuh 
+                    perhatian oleh barista kami.
+                </p>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section id="promo" class="promo">
+        <div class="container">
+            <div class="promo-grid">
+                <div class="promo-card">
+                    <div class="promo-image">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Caramel Macchiato Promo">
+                    </div>
+                    <div class="promo-content">
+                        <span class="promo-tag">Promo Mingguan</span>
+                        <h3>Caramel Macchiato Special</h3>
+                        <p>Nikmati kelezatan caramel macchiato dengan diskon spesial 20% hanya untuk minggu ini.</p>
+                        <div class="promo-price">
+                            <span class="old-price">Rp 45.000</span>
+                            <span class="new-price">Rp 36.000</span>
+                        </div>
+                        <a href="#menu" class="btn btn-outline promo-btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="promo-card promo-reverse">
+                    <div class="promo-content">
+                        <span class="promo-tag">Produk Terbaru</span>
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c628fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dams Coffee Interior">
+                </div>
+                <div class="about-content">
+                    <span class="section-tagline">Tentang Kami</span>
+                    <h2 class="section-title">About Us</h2>
+                    <p class="about-description">
+                        Didirikan pada tahun 2020, Dams Coffee lahir dari cinta terhadap kopi Indonesia. 
+                        Kami berkomitmen untuk menyajikan kopi premium dengan biji-biji kopi terbaik 
+                        dari berbagai wilayah di Indonesia.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">🌱</div>
+                            <div class="feature-info">
+                                <h4>Biji Kopi Berkualitas</h4>
+                                <p>Kami memilih biji kopi arabika dan robusta terbaik dari petani lokal.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">☕</div>
+                            <div class="feature-info">
+                                <h4>Proses Pembuatan</h4>
+                                <p>Setiap cangkir disiapkan dengan teknik barista profesional dan perhatian detail.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">🤝</div>
+                            <div class="feature-info">
+                                <h4>Komitmen Pelanggan</h4>
+                                <p>Kepuasan pelanggan adalah prioritas utama kami dalam setiap layanan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="story">
+        <div class="container">
+            <div class="story-content">
+                <span class="section-tagline">Perjalanan Kami</span>
+                <h2 class="section-title">Our Story</h2>
+                <div class="story-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2020</div>
+                        <div class="timeline-card">
+                            <h3>Dimulainya Perjalanan</h3>
+                            <p>Dams Coffee berdiri dengan visi untuk memperkenalkan kopi Indonesia ke seluruh dunia.</p>
+                        </div>
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-info">
+                    <span class="section-tagline">Kunjungi Kami</span>
+                    <h2 class="section-title">Our Location</h2>
+                    <div class="location-detail">
+                        <div class="location-item">
+                            <div class="location-icon">📍</div>
+                            <div class="location-text">
+                                <h3>Alamat Toko</h3>
+                                <p>Jl. Sudirman No. 123, Jakarta Pusat, DKI Jakarta 10110</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <div class="location-icon">🕒</div>
+                            <div class="location-text">
+                                <h3>Jam Operasional</h3>
+                                <p>Senin - Jumat: 07.00 - 22.00 WIB<br>Sabtu - Minggu: 08.00 - 23.00 WIB</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <div class="location-icon">📞</div>
+                            <div class="location-text">
+                                <h3>Kontak Kami</h3>
+                                <p>081262141509<br>hello@damscoffee.id</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <div class="map-placeholder">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.354193788938!2d106.82344511432584!3d-6.191230795467072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f35f6b3a2c4b%3A0x9f6f2d9a4e8c6b3a!2sSudirman%2C%20Jakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+    <!-- Testimonial Section -->
+    <section id="testimonial" class="testimonial">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Kata Pelanggan</span>
+                <h2 class="section-title">Testimonial</h2>
+                <p class="section-description">
+                    Inilah yang dikatakan pelanggan setia kami tentang Dams Coffee.
+                </p>
+            </div>
+            <div class="testimonial-grid" id="testimonialGrid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Kopi terbaik yang pernah saya coba di Jakarta. Rasa kopi yang autentik dan pelayanan yang ramah!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar"></div>
+                        <div class="testimonial-author-info">
+                            <h4>Andi Saputra</h4>
+                            <span>Pelanggan Tetap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Tempat yang nyaman untuk bekerja sambil menikmati kopi premium. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar"></div>
+                        <div class="testimonial-author-info">
+                            <h4>Siti Rahayu</h4>
+                            <span>Freelancer</span>
+                        </div>
+                    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <span class="section-tagline">Hubungi Kami</span>
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">📧</div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@damscoffee.id</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">📱</div>
+                            <div>
+                                <h3>Telepon</h3>
+                                <p>081262141509</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-mark">D<sup>C</sup></div>
+                        <span>Dams Coffee</span>
+                    </div>
+                    <p class="footer-description">
+                        Kopi premium dari Indonesia dengan komitmen terhadap kualitas dan kepuasan pelanggan.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="footer-social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="footer-social-link" aria-label="Twitter/X">𝕏</a>
+                        <a href="#" class="footer-social-link" aria-label="TikTok">🎵</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#menu">Pesan Online</a></li>
+                        <li><a href="#location">Lokasi Toko</a></li>
+                        <li><a href="#contact">Kontak Kami</a></li>
+                        <li><a href="#promo">Promo Terbaru</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li>📧 hello@damscoffee.id</li>
+                        <li>📱 081262141509</li>
+                        <li>📍 Jl. Sudirman No. 123, Jakarta Pusat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dams Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Keranjang Belanja</h3>
+            <button class="cart-close" id="cartClose">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty">
+                <p>Keranjang Anda masih kosong</p>
+                <a href="#menu" class="btn btn-outline cart-empty-btn">Lihat Menu</a>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">Rp 0</span>
+            </div>
+            <button class="btn btn-primary cart-checkout" id="cartCheckout">Checkout Sekarang</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
